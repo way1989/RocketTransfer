@@ -1,16 +1,32 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/welcom_root"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/blue"
+    android:background="@android:color/black"
     tools:context="com.guo.duoduo.anyshareofandroid.ui.main.WelcomeActivity">
 
 
     <ImageView
         android:id="@+id/activity_welcome_melon1"
-        android:layout_width="wrap_content"
+        android:layout_width="72dp"
+        android:layout_height="72dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="88dp"
+        android:src="@mipmap/ic_launcher" />
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_centerInParent="true"
-        android:src="@mipmap/watermelon" />
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="24dp"
+        android:layout_marginEnd="24dp"
+        android:layout_marginStart="24dp"
+        android:gravity="center"
+        android:maxLines="1"
+        android:text="@string/all_rights_reserved"
+        android:textColor="#b3ffffff"
+        android:textSize="10sp" />
 </RelativeLayout>

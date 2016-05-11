@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">西瓜快传</string>
+    <string name="app_name">火箭快传</string>
     <string name="menu_about">关于</string>
     <string name="menu_history">接收目录</string>
 
@@ -46,4 +46,5 @@
     <string name="about_receive_path">接收路径</string>
 
     <string name="no_received_content">无接收内容...</string>
+    <string name="all_rights_reserved">Copyright © 2012-2016 Broncho. All Rights Reserved.</string>
 </resources>
