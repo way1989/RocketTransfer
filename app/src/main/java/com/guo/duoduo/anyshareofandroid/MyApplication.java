@@ -7,6 +7,8 @@ import android.graphics.Point;
 import android.view.Display;
 import android.view.WindowManager;
 
+import com.guo.duoduo.anyshareofandroid.utils.permission.Nammu;
+
 
 /**
  * Created by 郭攀峰 on 2015/9/11.
@@ -25,6 +27,7 @@ public class MyApplication extends Application {
         super.onCreate();
 
         instance = this;
+        Nammu.init(getApplicationContext());
         Display display = ((WindowManager) getSystemService(Context.WINDOW_SERVICE))
                 .getDefaultDisplay();
         Point screen = new Point();

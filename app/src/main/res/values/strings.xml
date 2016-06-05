@@ -47,4 +47,8 @@
 
     <string name="no_received_content">无接收内容...</string>
     <string name="all_rights_reserved">Copyright © 2012-2016 Broncho. All Rights Reserved.</string>
+    <!--<string name="required_permissions_promo">We needs permission to Storage.</string>
+    <string name="enable_permission_procedure"><![CDATA[You can change permissions in Settings > Apps > I > Permissions.]]></string>-->
+    <string name="enable_permission_procedure">"您可以在“设置”>“应用”>“我”>“权限”中更改权限。"</string>
+    <string name="required_permissions_promo">"本应用需要获得“读写存储设备权限。"</string>
 </resources>
